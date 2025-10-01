@@ -5,10 +5,14 @@ The single point energy (spe) and poisson boltzmann surface area (pbsa) input an
 ```
 ├── spe
 │   ├── input
+│   │   ├── ...
 │   ├── output
+│   │   ├── ...
 ├── pbsa
 │   ├── input
+│   │   ├── ...
 │   ├── output
+│   │   ├── ...
 ```
 
 # Inputs
