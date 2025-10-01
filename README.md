@@ -1,5 +1,16 @@
 # fep_benchmark
 
+# Layout
+The single point energy (spe) and poisson boltzmann surface area (pbsa) input and output files are arranged in the following layout:
+```
+├── spe
+│   ├── input
+│   ├── output
+├── pbsa
+│   ├── input
+│   ├── output
+```
+
 # Inputs
 ## Single Point Energy Calculations
 - `xyz_files`: contains all the .xyz files for each of the targets used for MBE/MP2/cc-pVDZ single point energy calculations. 
