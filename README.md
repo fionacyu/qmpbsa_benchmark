@@ -1,4 +1,4 @@
-# fep_benchmark
+# Description
 This repository contains the input files (topologies and structures) and output energies for EXESS SPE and PBSA calculations for 198 protein-ligand systems. 
 
 | Target   | nligands |
