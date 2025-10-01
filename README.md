@@ -122,6 +122,7 @@ Output solvation energy files are arranged in the following layout
 ├── thrombin
 ├── tyk2
 ```
-
+- Directories `1`, `4`, and `6` refer to the different solute dielectric constants
+ 
 - `complex_results.csv` contains the solvation energies of the complex, `ligand_results.csv` contains the solvation energies of the ligand, `protein_results.csv` contains the solvation energies of the protein
 
