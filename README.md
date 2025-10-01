@@ -4,14 +4,14 @@
 The single point energy (spe) and poisson boltzmann surface area (pbsa) input and output files are arranged in the following layout:
 ```
 ├── spe
-│   ├── input
+│   ├── inputs
 │   │   ├── ...
-│   ├── output
+│   ├── outputs
 │   │   ├── ...
 ├── pbsa
-│   ├── input
+│   ├── inputs
 │   │   ├── ...
-│   ├── output
+│   ├── outputs
 │   │   ├── ...
 ```
 
