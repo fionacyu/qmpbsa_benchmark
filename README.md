@@ -1,4 +1,16 @@
 # fep_benchmark
+This repository contains the input files (topologies and structures) and output energies for EXESS SPE and PBSA calculations for 198 protein-ligand systems. 
+
+| Target   | nligands |
+|----------|----------|
+| BACE     | 36       |
+| CDK2     | 16       |
+| JNK1     | 21       |
+| MCL1     | 42       |
+| P38      | 34       |
+| PTP1B    | 23       |
+| thrombin | 10       |
+| TYK2     | 16       |
 
 # Layout
 The single point energy (spe) and poisson boltzmann surface area (pbsa) input and output files are arranged in the following layout:
