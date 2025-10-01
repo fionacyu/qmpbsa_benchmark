@@ -23,3 +23,5 @@
 ├── thrombin
 ├── tyk2
 ```
+
+- each of the `complex.qdx.json`, `ligand.qdx.json`, and `protein.qdx.json` contain the concatenated input files. 
