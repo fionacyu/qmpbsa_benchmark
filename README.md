@@ -101,6 +101,8 @@ Output energy files are arranged in the following layout
 ```
 - Dimer output energies are provided under `mbe2` and trimer output energies are provided under `mbe3`.
 
+- All energies listed in the output .json files are in Hartrees.
+
 ## Poisson Boltzmann Surface Area Calculations
 Output solvation energy files are arranged in the following layout
 
@@ -130,5 +132,6 @@ Output solvation energy files are arranged in the following layout
 ```
 - Directories `1`, `4`, and `6` refer to the different solute dielectric constants
  
-- `complex_results.csv` contains the solvation energies of the complex, `ligand_results.csv` contains the solvation energies of the ligand, `protein_results.csv` contains the solvation energies of the protein
+- `complex_results.csv` contains the solvation energies of the complex, `ligand_results.csv` contains the solvation energies of the ligand, `protein_results.csv` contains the solvation energies of the protein.
 
+- All energy files listed in the output .csv files are in kJ/mol
