@@ -8,7 +8,8 @@
 - `pbsa_files`: contains all the concatenated input .json files for pbsa calculations. Each concatenanted input .json file contains 1001 structures (corresponding to each of the frames sampled from the MD simulation) and contains the geometry and atomic partial charges.
 
 - `pbsa_files` contains many compressed .zip files, when all files are expanded, `pbsa_files` takes on the following form:
-``├── bace
+```
+├── bace
 │   ├── lig_13a 
 │   │   ├── complex.qdx.json
 │   │   ├── ligand.qdx.json
@@ -20,4 +21,5 @@
 ├── p38
 ├── ptp1b
 ├── thrombin
-├── tyk2``
+├── tyk2
+```
