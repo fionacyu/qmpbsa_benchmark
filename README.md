@@ -25,6 +25,8 @@
 ├── tyk2
 ```
 
-- each of the `complex.qdx.json`, `ligand.qdx.json`, and `protein.qdx.json` contain the concatenated input files. 
+- Each of the `complex.qdx.json`, `ligand.qdx.json`, and `protein.qdx.json` contain the concatenated input files. 
+
+- The .json files contain the fields `"geometry"`, `"symbols"` and `"partial_charges"` which are required as input for pbsa calculations.
 
 # Output Energies / Results
