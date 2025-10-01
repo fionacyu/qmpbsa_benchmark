@@ -12,7 +12,13 @@ This repository contains the input files (topologies and structures) and output 
 | thrombin | 10       |
 | TYK2     | 16       |
 
-# Layout
+# Data Layout
+- `qmpbsa_results.xlsx`: contains all the gas phase and solvation energies for all targets. All energies listed therein are in kJ/mol
+
+- `spe` contains data related to single point energy calculations with EXESS
+
+- `pbsa` contains data related to poisson boltzmann surface area calculations
+
 The single point energy (spe) and poisson boltzmann surface area (pbsa) input and output files are arranged in the following layout:
 ```
 ├── spe
