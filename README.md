@@ -13,8 +13,6 @@ This repository contains the input files (topologies and structures) and output 
 | TYK2     | 16       |
 
 # Data Layout
-- `qmpbsa_results.xlsx`: contains all the gas phase and solvation energies for all targets. All energies listed therein are in kJ/mol
-
 - `spe` contains data related to single point energy calculations with EXESS
 
 - `pbsa` contains data related to poisson boltzmann surface area calculations
@@ -22,9 +20,9 @@ This repository contains the input files (topologies and structures) and output 
 The single point energy (spe) and poisson boltzmann surface area (pbsa) input and output files are arranged in the following layout:
 ```
 ├── spe
-│   ├── inputs
+│   ├── topo
 │   │   ├── ...
-│   ├── outputs
+│   ├── xyz
 │   │   ├── ...
 ├── pbsa
 │   ├── inputs
@@ -66,45 +64,9 @@ The single point energy (spe) and poisson boltzmann surface area (pbsa) input an
 - The .json files contain the fields `"geometry"`, `"symbols"` and `"partial_charges"` which are required as input for pbsa calculations.
 
 # Output Energies / Results
-## Single Point Energy Calculations
-Output energy files are arranged in the following layout
+- `qmpbsa_results.xlsx`: contains all the gas phase and solvation energies for all targets. All energies listed therein are in kJ/mol
 
-```
-├── mbe2
-│   ├── bace
-│   │   ├── lig_13a
-│   │   │   ├── bacelig_13acluster_0.json
-│   │   │   ├── bacelig_13acluster_114.json
-│   │   │   ├── ...
-│   │   ├── ...
-│   ├── cdk2
-│   ├── jnk1
-│   ├── mcl1
-│   ├── p38
-│   ├── ptp1b
-│   ├── thrombin
-│   ├── tyk2
-├── mbe3
-│   ├── bace
-│   │   ├── lig_13a
-│   │   │   ├── bacelig_13acluster_0.json
-│   │   │   ├── bacelig_13acluster_114.json
-│   │   │   ├── ...
-│   │   ├── ...
-│   ├── cdk2
-│   ├── jnk1
-│   ├── mcl1
-│   ├── p38
-│   ├── ptp1b
-│   ├── thrombin
-│   ├── tyk2
-```
-- Dimer output energies are provided under `mbe2` and trimer output energies are provided under `mbe3`.
-
-- All energies listed in the output .json files are in Hartrees.
-
-## Poisson Boltzmann Surface Area Calculations
-Output solvation energy files are arranged in the following layout
+- Output solvation energy files are arranged in the following layout
 
 ```
 ├── bace
